@@ -6,7 +6,7 @@ import DescriptionIcon from '@mui/icons-material/Description';
 import TaskIcon from '@mui/icons-material/Task';
 import GroupIcon from '@mui/icons-material/Group';
 import TextField from "@mui/material/TextField";
-import Cards from "../TL/cards";
+import Cards from "./cards";
 import Mytask from "./mytask";
 import Team from "./team";
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
@@ -14,7 +14,7 @@ import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import Newproj from "./newproj";
 // import AutoAwesomeMosaicIcon from '@mui/icons-material/AutoAwesomeMosaic';
-
+import '../App.css';
 
 function Addproject(props) {
     return (

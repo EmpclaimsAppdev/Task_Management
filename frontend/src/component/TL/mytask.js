@@ -1,29 +1,23 @@
-import React, { useState } from 'react';
+import * as React from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import TextField from "@mui/material/TextField";
-// import ReactDatePicker from 'react-datepicker';
-// import 'react-date-range/dist/styles.css'; // main style file
-// import 'react-date-range/dist/theme/default.css'; // theme css file
-// import './App.css';
-
+import 'react-date-range/dist/styles.css'; // main style file
+import 'react-date-range/dist/theme/default.css'; // theme css file
+import '../App.css';
 import { Form, FormSelect } from 'react-bootstrap';
 
 
-
-
 function Mytask() {
-    const [show, setShow] = useState(false);
-
+    const [show, setShow] = React.useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
-
 
     return (
         <div>
             <div className="account">
                 <span>Advanced Md</span>
-                <Button variant="primary" onClick={handleShow}>
+                <Button className="btn" ariant="primary" onClick={handleShow}>
                     Create Task
                 </Button>
                 <div className="search">
@@ -93,8 +87,11 @@ function Mytask() {
                                 <option>Daily</option>
                                 <option>Weekly</option>
                                 <option>Monthly</option>
-                                <option>Custom  </option>
+                                <option>Custom</option>
                             </FormSelect>
+                        </Form.Group>
+                        <Form.Group>
+                            <Form.Label>Select Date</Form.Label>
                         </Form.Group>
                     </Form>
                 </Modal.Body>

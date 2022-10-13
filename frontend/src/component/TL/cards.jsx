@@ -1,7 +1,7 @@
 import React from 'react';
 import img1 from '../assets/advancemd.webp';
 import Card from './card';
-
+import '../App.css';
 
 function Cards(){
     return(
