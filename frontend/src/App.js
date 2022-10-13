@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Addproject from './component/addproject.js';
+import Addproject from '../src/component/TL/addproject';
 // import Allaccount from './component/allaccount';
 
 function App() {
@@ -8,56 +8,7 @@ function App() {
     <div>
       <Addproject />
 
-      <h1> Hello WOrld</h1>
-      <h1> Hello WOrld</h1>
-      <h1> Hello WOrld</h1>
-      <h1> Hello WOrld</h1>
-      <h1> Hello WOrld</h1>
-      <h1> Hello WOrld</h1>
-      <h1> Hello WOrld</h1>
-      <h1> Hello WOrld</h1>
-      <h1> Hello WOrld</h1>
-      <h1> Hello WOrld</h1>
-      <h1> Hello WOrld</h1>
-      <h1> Hello WOrld</h1>
-      <h1> Hello WOrld</h1>
-      <h1> Hello WOrld</h1>
-      <h1> Hello WOrld</h1>
-
-
-      <h1> Hello Akshar</h1>
-      <h1> Hello Akshar</h1>
-      <h1> Hello Akshar</h1>
-      <h1> Hello Akshar</h1>
-      <h1> Hello Akshar</h1>
-      <h1> Hello Akshar</h1>
-      <h1> Hello Akshar</h1>
-      <h1> Hello Akshar</h1>
-      <h1> Hello Akshar</h1>
-      <h1>Sonal ............................</h1>
-      <h1> Hello Akshar</h1>
-      <h1> Hello Akshar</h1>
-      <h1> Hello Akshar</h1>
-
-
-
-
-      <h1> Hello ronak</h1>
-
-<h1> Hello ronak</h1>
-
-<h1> Hello ronak</h1>
-
-<h1> Hello ronak</h1>
-
-<h1> Hello ronak</h1>
-
-<h1> Hello ronak</h1>
-
-<h1> Hello ronak</h1>
-
-<h1> Hello ronak</h1>
-
+  
     </div>
   );
 }
