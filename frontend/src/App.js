@@ -7,6 +7,8 @@ function App() {
   return (
     <div>
       <Addproject />
+
+      <h1> Hello WOrld</h1>
     </div>
   );
 }
