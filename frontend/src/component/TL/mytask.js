@@ -2,10 +2,13 @@ import * as React from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import TextField from "@mui/material/TextField";
-import 'react-date-range/dist/styles.css'; // main style file
-import 'react-date-range/dist/theme/default.css'; // theme css file
-import '../App.css';
 import { Form, FormSelect } from 'react-bootstrap';
+import CalendarComp from './calenderComp';
+import { Dialog } from '@reach/dialog';
+import '@reach/dialog/styles.css';
+import '@reach/tabs/styles.css';
+import img1 from '../assets/advancemd.webp';
+
 
 
 function Mytask() {
@@ -16,7 +19,7 @@ function Mytask() {
     return (
         <div>
             <div className="account">
-                <span>Advanced Md</span>
+                 {/* <div><img src={img1} width='55rem'></img></div> */}
                 <Button className="btn" ariant="primary" onClick={handleShow}>
                     Create Task
                 </Button>
@@ -31,6 +34,7 @@ function Mytask() {
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
             </div>
+           
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
                     <Modal.Title>Create Task</Modal.Title>
@@ -92,6 +96,7 @@ function Mytask() {
                         </Form.Group>
                         <Form.Group>
                             <Form.Label>Select Date</Form.Label>
+                            <CalendarComp />
                         </Form.Group>
                     </Form>
                 </Modal.Body>

@@ -14,7 +14,7 @@ import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import Newproj from "./newproj";
 // import AutoAwesomeMosaicIcon from '@mui/icons-material/AutoAwesomeMosaic';
-import '../App.css';
+
 
 function Addproject(props) {
     return (
