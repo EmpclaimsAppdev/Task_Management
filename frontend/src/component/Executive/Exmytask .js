@@ -5,7 +5,7 @@ import TextField from "@mui/material/TextField";
 // import ReactDatePicker from 'react-datepicker';
 // import 'react-date-range/dist/styles.css'; // main style file
 // import 'react-date-range/dist/theme/default.css'; // theme css file
-import '../App.css';
+
 
 import { Form, FormSelect } from 'react-bootstrap';
 

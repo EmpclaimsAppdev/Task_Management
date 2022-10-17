@@ -1,0 +1,17 @@
+.outerflexcard {
+    width: 200px;
+    margin: 5px;
+    box-shadow: 2px;
+    border: 5px solid rgb(232, 223, 223);
+    border-radius: 5px;
+  }
+
+  .outerflexcard:hover{
+    transform: scale(1);
+    transition: transform 0.5s ease;
+  }
+
+  .card-img-top{
+    transform: scale(1);
+    transition: transform 0.5s ease;
+  }

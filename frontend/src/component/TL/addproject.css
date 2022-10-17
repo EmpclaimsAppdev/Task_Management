@@ -1,0 +1,24 @@
+.navv{
+    border: 2px solid oldlace;
+    box-shadow: 2px black;
+  }
+  
+  .icn{
+    margin-left: 10%;
+   
+  }
+  .pad{
+    padding-right: 8%;
+    text-decoration: none; 
+    margin-left: 15px;
+    background-color: none !important;
+  }
+  .pad:hover{
+    color: rgb(130, 54, 163) !important;
+    transform: scale(1.2) !important;
+    overflow: hidden;
+   }
+  
+  NavLink :hover{
+    text-decoration: underline;
+  }

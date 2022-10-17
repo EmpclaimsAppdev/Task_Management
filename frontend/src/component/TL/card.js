@@ -1,9 +1,10 @@
 import React from 'react';
-import '../App.css';
+import './card.css';
+
 
 function Card(props) {
     return(
-        <div className='card text-center shadow blocck'>
+        <div className='flexcard'>
             <div className='overflow'>
                 <img className='card-img-top' src={props.img} alt="" />
                 <p className='card-text text-secondary'>{props.title}</p>

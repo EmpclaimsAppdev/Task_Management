@@ -1,19 +1,32 @@
-.App {
+/* .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* Float four columns side by side */
+/* .column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+} */
 
-.App-header {
+/* Remove extra left and right margins, due to padding */
+/* .row {margin: 0 -5px;} */
+
+/* Clear floats after the columns */
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both; */
+/* } */
+/* .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+} */
+
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,13 +35,13 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
+} */
+/* 
 .App-link {
   color: #61dafb;
-}
+} */
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
@@ -36,77 +49,4 @@
     transform: rotate(360deg);
   }
 }
-
-.navv{
-  border: 2px solid oldlace;
-  box-shadow: 2px black;
-}
-
-.icn{
-  margin-left: 10%;
- 
-}
-.pad{
-  padding-right: 8%;
-  text-decoration: none; 
-  margin-left: 15px;
-  background-color: none !important;
-}
-.pad:hover{
-  color: rgb(130, 54, 163) !important;
-  transform: scale(1.2) !important;
-  overflow: hidden;
- }
-
-NavLink :hover{
-  text-decoration: underline;
-}
-
- .account{
-  margin: 1.2rem;
-  font-weight: bolder;
-  font-size: 1.2rem;
-  display: flex;
-}
-/* .card:hover{
-  box-shadow: 5px 1opx 20px 1px rgba(0,0,0,0.253) !important;
-} */
-
-.card-img-top{
-  transform: scale(1);
-  transition: transform 0.5s ease;
-}
-
-.card-body{
-  padding: 3rem 0 !important;
-}
-
-.container-fluid .row{
-  padding-top: 1rem; 
-  margin: 0 3rem;
-}
-
-.block{
-  padding-bottom: 2rem;
-}
-
-.search {
-  width: 16%;
-  margin-left: 80%;
-  position: absolute;
-}
-.btn{
- margin-left: 65% !important;
-}
-table {
-  width: 100%;
-  border-bottom: #e4e6eb;
-}
-thead td{
-  text-align: left;
-  color: #a6a7ab;
-  font-weight: bolder;
-  padding: 10px;
-  background-color: #f7f8fb;
-  border-bottom: 1px solid;
-}
+ */ 
