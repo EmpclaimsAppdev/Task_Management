@@ -5,6 +5,7 @@ import TextField from "@mui/material/TextField";
 import Select from 'react-select';
 import { Form, FormSelect } from 'react-bootstrap';
 import Cards from './cards';
+import './newproj.css';
 
 
 function Newproj(props) {
@@ -50,20 +51,21 @@ function Newproj(props) {
 
     return (
         <>
-            <div className="account">
-                <span>All Account</span>
-                <Button className='btn' variant="primary" onClick={handleShow}>
-                    Create Project
-                </Button>
-                <div className="search">
-                    <TextField
+             <div className="d-flex w-100">
+                <div className='mr-auto p-2'><strong>Advanced Md</strong></div>
+                <div className='p-2 mr-5'>
+                    <Button ariant="primary" onClick={handleShow}>
+                        Create Project
+                    </Button>
+                </div>
+                <div className="p-2">
+                    <TextField className='search'
                         size="small"
                         id="outlined-basic"
                         variant="outlined"
                         fullWidth
                         label="Search"
                     />
-                    <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
             </div>
             <div className="flexcard">

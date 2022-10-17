@@ -1,6 +1,7 @@
 import React from 'react';
 import img1 from '../assets/advancemd.webp';
 import Card from './card';
+import './cards.css';
 
 
 function Cards(props) {

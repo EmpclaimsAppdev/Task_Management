@@ -1,0 +1,13 @@
+
+  table {
+    width: 100%;
+    border-bottom: #e4e6eb;
+  }
+  thead td{
+    text-align: left;
+    color: #a6a7ab;
+    font-weight: bolder;
+    padding: 10px;
+    background-color: #f7f8fb;
+    border-bottom: 1px solid;
+  }
