@@ -51,7 +51,7 @@ function Newproj(props) {
 
     return (
         <>
-             <div className="d-flex w-100">
+            <div className="d-flex w-100">
                 <div className='mr-auto p-2'><strong>Advanced Md</strong></div>
                 <div className='p-2 mr-5'>
                     <Button ariant="primary" onClick={handleShow}>
@@ -69,9 +69,9 @@ function Newproj(props) {
                 </div>
             </div>
             <div className="flexcard">
-                        {list.length > 0 ? list.map((ele, index) => {
-                            return (<Cards {...ele} />)
-                        }) : ""}
+                {list.length > 0 ? list.map((ele, index) => {
+                    return (<Cards {...ele} />)
+                }) : ""}
             </div>
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>

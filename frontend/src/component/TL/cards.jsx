@@ -7,7 +7,7 @@ import './cards.css';
 function Cards(props) {
     return (
         <>
-            <div className='outerflexcard'>
+            <div className='outerflexcard ml-3 mt-3'>
                     <img className='card-img-top' src={img1} alt="" />
                     <p className='card-text text-secondary'>{props.AccountName}</p>
             </div>

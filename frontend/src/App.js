@@ -6,9 +6,7 @@ import Addproject from '../src/component/TL/addproject';
 function App() {
   return (
     <div>
-      <Addproject />
-
-  
+      <Addproject />  
     </div>
   );
 }

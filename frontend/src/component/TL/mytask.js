@@ -13,13 +13,18 @@ import CalendarComp from './calenderComp';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import './mytask.css';
+import Executive from './logout';
 
 
 
 function Mytask() {
     const [show, setShow] = React.useState(false);
+    const [SOPShow, setSOPShow] = React.useState("none");
+
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
+   
+
 
     return (
         <div>
@@ -59,6 +64,7 @@ function Mytask() {
                                         <option>Billing</option>
                                         <option>AR</option>
                                         <option>Posting</option>
+                                        <option>Coding</option>
                                     </FormSelect>
                                 </Form.Group>
                                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
@@ -87,13 +93,21 @@ function Mytask() {
                                         <option>Posting</option>
                                     </FormSelect>
                                 </Form.Group>
-                                <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                                <Form.Group className="mb-3" controlId="exampleForm.ControlInput1" >
                                     <Form.Label>SOP (is SOP created)</Form.Label>
-                                    <FormSelect placeholder='Team Involved'>
+                                    <FormSelect placeholder='Team Involved'  onChange={(e)=>{return(e.target.value==='Yes'?setSOPShow("block"):setSOPShow("none"))}}>
                                         <option>Click here to select</option>
-                                        <option>Yes</option>
+                                        <option value={"Yes"}>Yes</option>
                                         <option>No</option>
                                     </FormSelect>
+                                </Form.Group>
+                                <Form.Group className="mb-3" controlId="exampleForm.ControlInput1" style={{"display":SOPShow}}>
+                                    <Form.Label>SOP Link</Form.Label>
+                                    <Form.Control
+                                        type="name"
+                                        placeholder="Enter SOP Link"
+                                        required
+                                    />                                   
                                 </Form.Group>
                                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                                     <Form.Label>Time Line</Form.Label>
@@ -115,8 +129,6 @@ function Mytask() {
 
                         </Tab>
                     </Tabs>
-
-
                 </Modal.Body>
                 <Modal.Footer>
                     <Button variant="primary" onClick={handleClose}>
@@ -138,6 +150,9 @@ function Mytask() {
                         </tr>
                     </thead>
                 </table>
+            </div>
+            <div>
+               
             </div>
         </div>
     )
