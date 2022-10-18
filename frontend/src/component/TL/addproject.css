@@ -22,3 +22,7 @@
   NavLink :hover{
     text-decoration: underline;
   }
+
+  .logout{
+    margin-left: 5px;
+  }

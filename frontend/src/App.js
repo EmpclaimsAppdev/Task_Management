@@ -6,11 +6,7 @@ import Addproject from '../src/component/TL/addproject';
 function App() {
   return (
     <div>
-      <Addproject />
-
-      <h1>Hello World</h1>
-
-  
+    <Addproject /> 
     </div>
   );
 }
