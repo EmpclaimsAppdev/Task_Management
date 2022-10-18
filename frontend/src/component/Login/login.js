@@ -4,13 +4,14 @@ import './login.css'
 
 function Login() {
 
-//   const togglePassword = document.querySelector('#eye');
-//   const password = document.querySelector('#password');
-//   togglePassword.addEventListener('click', function (e) {
-//     const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
-//     password.setAttribute('type', type);
-//     this.classList.toggle('fa fa-eye');
-// });
+  const showPass = () => {
+    var x = document.getElementById("password");
+    if (x.type === "password") {
+      x.type = "text";
+    } else {
+      x.type = "password";
+    }
+  }
 
   return (
     <div className="App">
@@ -23,9 +24,9 @@ function Login() {
           <br></br>
           <label className="lpassword"><strong>password</strong></label>
           <div className='pwd'>
-          <input className="ipassword" type="password" placeholder="Enter Your password" id="password" required ></input>
+            <input className="ipassword" type="password" placeholder="Enter Your password" id="password" required ></input>
             <span className='p-viewer'>
-              <i className='fa fa-eye' id="eye" aria-hidden="true"></i>
+              <i className='fa fa-eye' onClick={() => { showPass() }} id="eye" aria-hidden="true"></i>
             </span>
           </div>
           <div className="checkeepfor">
