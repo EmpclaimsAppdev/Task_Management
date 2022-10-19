@@ -12,6 +12,7 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import Newproj from "./newproj";
 import './addproject.css';
 import Logout from "./logout";
+import NotificationsIcon from '@mui/icons-material/Notifications';
 
 function Addproject(props) {
     return (
@@ -24,7 +25,8 @@ function Addproject(props) {
                         <NavLink style={isActive => ({color: isActive ? "grey" : "blue" })} to='/mytask' className="pad"><TaskIcon />Mytask</NavLink>
                         <NavLink style={isActive => ({color: isActive ? "grey" : "blue" })} to='/team' className="pad"><GroupIcon />Team</NavLink>
                     </Nav>
-                    <AccountCircleIcon color="grey"/>
+                    <NotificationsIcon color="disabled"/>
+                    <AccountCircleIcon color="disabled"/>
                     <span style={{marginLeft : 5 , fontSize: 20 , color: 'grey' }}>Sahil Dixit</span>
                     <Logout className='logout'/>
                 </Container>
