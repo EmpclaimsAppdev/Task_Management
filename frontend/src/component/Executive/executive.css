@@ -1,0 +1,229 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .navv{
+    border: 2px solid oldlace;
+    box-shadow: 2px black;
+  }
+  
+  .icn{
+    margin-left: 10%;
+   
+  }
+  .pad{
+    padding-right: 8%;
+    text-decoration: none; 
+    margin-left: 15px;
+    background-color: none !important;
+  }
+  .pad:hover{
+    color: rgb(130, 54, 163) !important;
+    transform: scale(1.2) !important;
+    overflow: hidden;
+   }
+  
+  NavLink :hover{
+    text-decoration: underline;
+  }
+  
+   .account{
+    margin: 1.2rem;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    display: flex;
+  }
+  /* .card:hover{
+    box-shadow: 5px 1opx 20px 1px rgba(0,0,0,0.253) !important;
+  } */
+  
+  .card-img-top{
+    transform: scale(1);
+    transition: transform 0.5s ease;
+  }
+  
+  .card-body{
+    padding: 3rem 0 !important;
+  }
+  
+  .container-fluid .row{
+    padding-top: 1rem; 
+    margin: 0 3rem;
+  }
+  
+  .block{
+    padding-bottom: 2rem;
+  }
+  
+  .search {
+    width: 16%;
+    margin-left: 80%;
+    position: absolute;
+  }
+  .btn{
+   margin-left: 65% !important;
+  }
+  /* table {
+    width: 100%;
+    border-bottom: #e4e6eb;
+  }
+  thead td{
+    text-align: left;
+    color: #a6a7ab;
+    font-weight: bolder;
+    padding: 10px;
+    background-color: #f7f8fb;
+    border-bottom: 1px solid;
+  } */
+  .table1 ,tr, td {
+    border: 1px solid black;
+    
+  }
+  hr.rounded {
+    border-top: 8px solid #bbb;
+  }
+  
+  /* .scrolltd{
+    max-width: "800px";
+    max-height: "300px";
+    width: 800px;
+    border: 1px solid slategrey;
+    overflow-x: visible
+  } */
+  
+  
+  .left-scrolltd{
+    max-width: 200px;
+    overflow-wrap: break-word;
+    text-align: center;
+  }
+  
+  .div-scroll-main{
+    display: flex;
+    margin: 20px;
+  }
+  
+  .div-scroll-left{
+    display: flex;
+    align-items: flex-start;
+    justify-content: baseline;
+    font-size: small;
+    font-weight: bold;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start;
+  }
+  .div-scroll-right{
+    display: flex;
+    align-items: flex-start;
+    justify-content: baseline;
+    font-size: small;
+    font-weight: bold;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start;
+    /* padding-left: 30px; */
+  }
+  .div-scroll-bottom{
+    padding-top: 0px;
+    text-align: left;
+    font-size: small;
+    font-weight: bold;
+    justify-content: baseline;
+    /* padding-bottom: 50px; */
+    width: 200px;
+    margin: 20px;
+  
+  }
+  a{
+    overflow-wrap: break-word;
+  }
+  
+  
+  .container {
+    display: flex;
+  }
+  .table{
+    border: 1px solid slategray;
+    height: 200px;
+    /* max-height: 800px; */
+  }
+  
+  .horizontally-scrolled-items {
+    /* width: 1000px !important  ; */
+    display: flex;
+    overflow-x: scroll; 
+    height: 340px;
+    text-align: center;
+    font-weight: 700;
+    font-size:small;
+    /* border: 1px solid slategray; */
+    /* max-width: 700px; */
+  }
+  
+  
+  .scrolltd{
+    padding-left:0px;
+    max-width: 70px;
+  }
+  
+  .scrolltr {
+    text-align: center;
+    color: #141619; 
+    height: 50px;
+    background-color: white;
+    border: 1px solid slategray;
+    
+    /* max-width: 600px; */
+  }
+  
+  .arrow{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-top: 90px;
+  }
+  
+  .arrow-top{
+    text-align: center;
+  }
+  
+  .play-pause{
+    display: flex;
+    font-size: small;
+  }
